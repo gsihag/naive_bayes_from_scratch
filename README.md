@@ -1,6 +1,6 @@
 # naive_bayes_from_scratch
 this code represents naive bayes algorithm built from scratch. It can also work well with missing values.
- This code also works for multi-class classification problems (e.g. democrat/republican/independent). 
+This code also works for multi-class classification problems (e.g. democrat/republican/independent). 
  Calculate P(E1|CL0)P(E2|CL0)P(E3|CL0)...P(E#|CL0) * P(CL0) and
  P(E1|CL1)P(E2|CL1)P(E3|CL1)...P(E#|CL1) * P(CL1) and
  P(E1|CL2)P(E2|CL2)P(E3|CL2)...P(E#|CL2) * P(CL2), etc. and 
