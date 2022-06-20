@@ -10,9 +10,8 @@ def naive_bayes(training_set,test_set, target):
       test_set: The test instances as a Pandas dataframe
       target: name of the target column in dataframe
     Returns:
-      accuracy: Classification accuracy as a decimal
-      predictions: Classifications of all the test instances as a 
-        Pandas dataframe
+      y_true: actual class variable
+      y_pred: predicted class variable
       learned_model: The likelihood table that is produced
         during the training phase
       no_of_instances_test: The number of test instances
